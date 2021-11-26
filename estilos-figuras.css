@@ -1,0 +1,66 @@
+.formularios-figuras {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .formularios-figuras {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: blueviolet;
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    background-color: greenyellow;
+}
+
+.header p {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.titulo-descripcion {
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.campo input {
+    height: 4rem;
+}
+
+.campo label {
+    margin-bottom: 1rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    height: 4rem;
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
