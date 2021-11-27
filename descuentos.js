@@ -35,6 +35,10 @@ const coupons = [
     }
 ]
 
+const isCouponValid = function(coupon){
+    return coupon.name === couponValue;
+}
+
 
 
 
