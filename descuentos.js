@@ -20,27 +20,6 @@ function calcularPrecioConDescuento(precio, descuento){
     resultadoPrecio.innerText = "El precio con desuento son: $" + precioConDescuento;
 }
 
-const coupons = [
-    {
-        name: "BlackFriday",
-        discount: 15
-    },
-    {
-        name: "JavaScript",
-        discount: 30
-    },
-    {
-        name: "Web",
-        discount: 25
-    }
-]
-
-const isCouponValid = function(coupon){
-    return coupon.name === couponValue;
-}
-
-
-
 
 
 //  console.log({
