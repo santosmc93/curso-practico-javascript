@@ -80,3 +80,5 @@ colombia.push({
     name: "Bill Gates",
     salary: 100000000,
   });
+
+  console.log(colombia)
